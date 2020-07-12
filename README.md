@@ -1,13 +1,9 @@
-# jekyll-template
-Simple template for creating openSUSE websites with jekyll
+# openSUSE Download
 
-Please remember openSUSE is not SUSE, and neither this nor any other website with openSUSE branding is fit for webservers hosting on suse.com/suse.de domains or other SUSE related projects.
+Sources for UI of download.opensuse.org (for the software behind our
+mirrors, see [openSUSE/mirrorbrain](https://github.com/openSUSE/mirrorbrain))
 
-## General HOW-TO:
-
-1. Use [Repository Generator](https://github.com/openSUSE/jekyll-template/generate) to create a new repositosiry based on this one
-2. Edit the metadata in [_config.yml](https://github.com/openSUSE/jekyll-template/blob/master/_config.yml) to suit your project
-3. Modify [index.md](https://github.com/openSUSE/jekyll-template/blob/master/index.md) to suit your site's needs, and add as many more .md and .html files as you need to expand the site
+**!!!DO NOT USE THIS REPOSITORY AS A BASE FOR ANYTHING ELSE, THIS IS HIGHLY CUSTOM FOR THE PURPOSES OF MIRRORBRAIN!!!**
 
 ## How to build?
 

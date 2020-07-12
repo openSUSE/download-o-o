@@ -1,51 +1,54 @@
 lang: en
-title: openSUSE Template
-title_short: Template
-description: Template for openSUSE Websites
+title: openSUSE Download
+title_short: Download
+description: |
+  The openSUSE Download repositories providing all of the software in
+  the openSUSE distributions and openSUSE Build Service repositories
 email: admin@opensuse.org
-copyright: '© 2020 openSUSE contributors'
+copyright: '© 2015-2020 SUSE LLC., openSUSE contributors'
 baseurl: ""
-url: "https://template.opensuse.org"
-github_url: "https://github.com/openSUSE/jekyll-template"
+url: "http://download.opensuse.org"
 
 navbar_links:
-  -
-    link: https://www.opensuse.org/
-    text: Absolute Link 1
-  -
-    link: /about/
-    text: Relative Link 2
+   -
+     text: Shortcuts
+     children:
+       -
+         link: /debug/
+         text: debug
+       -
+         link: /distribution/
+         text: distribution
+       -
+         link: /factory/
+         text: factory
+       -
+         link: /ports/
+         text: ports
+       -
+         link: /repositories/
+         text: repositories
+       -
+         link: /source/
+         text: source
+       -
+         link: /tumbleweed/
+         text: tumbleweed
+       -
+         link: /update/
+         text: update
 
 footer_links:
   -
     text: Source Code
-    link: https://github.com/openSUSE/jekyll-template
+    link: https://github.com/openSUSE/mirrorbrain
   -
-    text: License
-    link: https://github.com/openSUSE/jekyll-template/blob/master/COPYING
-
-# Only edit below if you know what you are doing!
-
-defaults:
+    text: Report Bugs
+    link: https://bugzilla.opensuse.org/
   -
-    scope:
-      path: "*.html"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: "*.md"
-    values:
-      layout: "markdown"
-  -
-    scope:
-      path: "*.markdown"
-    values:
-      layout: "markdown"
-
-disable_search: true
+    text: Imprint
+    link: https://en.opensuse.org/Imprint
 
 theme: jekyll-theme-opensuse
-markdown: kramdown
 
-exclude: [README.md, Gemfile, Gemfile.lock, vendor]
+exclude: [README.md, Gemfile, Gemfile.lock, vendor, LICENSE]

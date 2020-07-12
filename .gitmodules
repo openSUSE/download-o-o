@@ -1,0 +1,8 @@
+[submodule "_sass/chameleon"]
+	path = _sass/chameleon
+	url = https://github.com/openSUSE/chameleon.git
+	branch = rel-3.0
+[submodule "_sass/bootstrap"]
+	path = _sass/bootstrap
+	url = https://github.com/twbs/bootstrap.git
+	branch = v4-dev
