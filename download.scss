@@ -48,8 +48,7 @@ table {
     @extend .table-responsive;
     @extend .table-striped;
     @extend .table-sm;
-    border: $table-border-width solid $table-border-color!important;
-    border-width: 0 $table-border-width!important;
+    border-width: 0;
     border-radius: 4px;
 }
 
