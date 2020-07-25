@@ -15,9 +15,9 @@ td:nth-of-type(2) {
     width: 100%;
 }
 
-td:nth-of-type(2),
-td:nth-of-type(3),
-td:nth-of-type(4) {
+td:nth-of-type(2), th:nth-of-type(2),
+td:nth-of-type(3), th:nth-of-type(3),
+td:nth-of-type(4), th:nth-of-type(4) {
     white-space: nowrap;
 }
 
@@ -45,6 +45,23 @@ table tr td a, table tr th a {
 
 table tr td a:hover, table tr th a:hover {
     text-decoration: none;
+}
+
+table tr th a:after {
+    color: initial;
+    font-size: 0.7em;
+}
+
+table.by-name th:nth-of-type(2) a[href$="?C=N;O=A"]:after,
+table.by-modified th:nth-of-type(3) a[href$="?C=M;O=A"]:after,
+table.by-size th:nth-of-type(4) a[href$="?C=S;O=A"]:after {
+    content: " ▲";
+}
+
+table.by-name th:nth-of-type(2) a[href$="?C=N;O=D"]:after,
+table.by-modified th:nth-of-type(3) a[href$="?C=M;O=D"]:after,
+table.by-size th:nth-of-type(4) a[href$="?C=S;O=D"]:after {
+    content: " ▼";
 }
 
 .root td:nth-of-type(2) a {
