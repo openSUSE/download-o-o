@@ -34,6 +34,19 @@ table tr td {
     vertical-align: middle !important;
 }
 
+table tr td:nth-of-type(1), table tr td:nth-of-type(2), table tr th:nth-of-type(2), table tr th:nth-of-type(3), table tr th:nth-of-type(4) {
+    padding:0;
+}
+
+table tr td a, table tr th a {
+    display: block;
+    padding: 0.3rem;
+}
+
+table tr td a:hover, table tr th a:hover {
+    text-decoration: none;
+}
+
 .root td:nth-of-type(2) a {
     display: flex;
 }
