@@ -2,15 +2,6 @@
 ---
 @import "chameleon/src/sass/chameleon";
 
-#breadcrumbs {
-    font-size: initial;
-}
-
-#mirrorbrain-wrap {
-    @extend .container;
-    @extend .flex-fill;
-}
-
 table {
     @extend .table;
     @extend .table-responsive;
