@@ -44,15 +44,15 @@ table tr td {
 }
 
 .root td:nth-of-type(2) a[href="debug/"]:after {
-    content: "debug packages for official released distribution packages";
+    content: "debugging packages for openSUSE distributions";
 }
 
 .root td:nth-of-type(2) a[href="distribution/"]:after {
-    content: "Leap installation sources and ISO images";
+    content: "Leap packages, sources and images";
 }
 
 .root td:nth-of-type(2) a[href="factory/"]:after {
-    content: "Tumbleweed (former Factory) installation sources and ISO images";
+    content: "Factory packages, sources and images";
 }
 
 .root td:nth-of-type(2) a[href="history/"]:after {
@@ -60,21 +60,40 @@ table tr td {
 }
 
 .root td:nth-of-type(2) a[href="ports/"]:after {
-    content: "ports of the openSUSE distribution";
+    content: "openSUSE distributions for different architectures";
 }
 
 .root td:nth-of-type(2) a[href="repositories/"]:after {
-    content: "repositories and images created with the Open Build Service";
+    content: "packages and images created with the Open Build Service";
 }
 
 .root td:nth-of-type(2) a[href="source/"]:after {
-    content: "source packages of official released distribution packages";
+    content: "source packages of openSUSE distributions";
 }
 
 .root td:nth-of-type(2) a[href="tumbleweed/"]:after {
-    content: "Tumbleweed installation sources and ISO images";
+    content: "Tumbleweed packages, sources and images";
 }
 
 .root td:nth-of-type(2) a[href="update/"]:after {
-    content: "updated packages for official released distribution packages";
+    content: "updates for packages in openSUSE distributions";
+}
+
+
+@media (max-width: 576px) {
+    table tr td:nth-of-type(3), table tr th:nth-of-type(3) {
+        display: none!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .root td:nth-of-type(2) a:after {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    table tr td:nth-of-type(5), table tr th:nth-of-type(5) {
+        display: none!important;
+    }
 }
