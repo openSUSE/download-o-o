@@ -45,7 +45,9 @@ function setloc() {
   }
 
   document.getElementById('breadcrumbs').innerHTML = '<ol class="breadcrumb">' + b + '</ol>';
+}
 
+function settable() {
   if (qs["C"] == "M")
     document.getElementsByTagName("table")[0].setAttribute('class', 'by-modified');
   else if (qs["C"] == "S")
