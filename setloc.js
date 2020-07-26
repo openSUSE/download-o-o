@@ -31,11 +31,11 @@ function setloc() {
   var p = '/';
   if (s.length == 0 ) {
     document.body.setAttribute('class', 'root');
-    document.title = l + ' - openSUSE Download';
+    document.title = 'openSUSE Download';
   }
   else {
     [...document.getElementsByClassName("alert")].map(n => n && n.remove());
-    document.title = 'openSUSE Download';
+    document.title = l + ' - openSUSE Download';
   }
 
   var b = active(s, -1, icon + ' Download', p);
