@@ -49,19 +49,18 @@ table tr td a:hover, table tr th a:hover {
 
 table tr th a:after {
     color: initial;
-    font-size: 0.7em;
 }
 
 table.by-name th:nth-of-type(2) a[href$="?C=N;O=A"]:after,
 table.by-modified th:nth-of-type(3) a[href$="?C=M;O=A"]:after,
 table.by-size th:nth-of-type(4) a[href$="?C=S;O=A"]:after {
-    content: " ▲";
+    content: " ↑";
 }
 
 table.by-name th:nth-of-type(2) a[href$="?C=N;O=D"]:after,
 table.by-modified th:nth-of-type(3) a[href$="?C=M;O=D"]:after,
 table.by-size th:nth-of-type(4) a[href$="?C=S;O=D"]:after {
-    content: " ▼";
+    content: " ↓";
 }
 
 .root td:nth-of-type(2) a {
