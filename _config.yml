@@ -5,7 +5,7 @@ description: |
   The openSUSE Download repositories providing all of the software in
   the openSUSE distributions and openSUSE Build Service repositories
 email: admin@opensuse.org
-copyright: '&copy; 2015-2020 SUSE LLC., openSUSE contributors'
+copyright: '&copy; 2015-2022 SUSE LLC., openSUSE contributors'
 baseurl: ""
 url: "http://download.opensuse.org"
 
