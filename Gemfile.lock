@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/opensuse/jekyll-theme.git
   revision: cd9f09233373db2bda95e1324a37c1fe54f19a55
+  branch: master
   specs:
     jekyll-theme-opensuse (0.7.1)
       jekyll
@@ -76,3 +77,4 @@ DEPENDENCIES
   jekyll
   jekyll-theme-opensuse!
   public_suffix (< 5.0)
+
