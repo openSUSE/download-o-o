@@ -76,6 +76,3 @@ DEPENDENCIES
   jekyll
   jekyll-theme-opensuse!
   public_suffix (< 5.0)
-
-BUNDLED WITH
-   2.3.16
